@@ -31,7 +31,7 @@ const Filters = () => {
         />
       </label>
       <label>
-        summer
+        season filters
         <input
           onChange={(event) => setTimeFilters(event.target.value)}
           value={timeFilters}
