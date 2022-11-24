@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+// full filters: ["assault","violence","bneStore","bneHome","bneOther","robStore","robStreet","robOfCar","robFromCar"]
+// ["fall","summer","spring","winter"] or ["dhdjhds"], if theres only one unrecognized element, it sends it all
 const Filters = () => {
   const [crimeFilters, setCrimeFilters] = useState([]);
   const [timeFilters, setTimeFilters] = useState([]);
